@@ -1,4 +1,4 @@
-# **1. Importing Necessary Libraries** 📚
+# **1. Importing Necessary Libraries** 
 
 import pandas as pd
 import numpy as np
@@ -265,18 +265,16 @@ def inputlist(Name,Contact_Number,Email_address,
 
 def main():
 
-#   with st.spinner('Wait for it...'):
-#       time.sleep(5)
-#   st.success('Done!')
+
 
   html1="""
     <div style="text-align:center; text-shadow: 3px 1px 2px purple;">
       <h1>👨🏻‍💻 Career Path Prediction app 👨🏻‍💻</h1>
     </div>
       """
-  st.markdown(html1,unsafe_allow_html=True) #simple html 
+  st.markdown(html1,unsafe_allow_html=True) 
 
-  # Images
+
 
   col1, col2, col3 = st.columns(3)
 
@@ -330,31 +328,31 @@ def main():
     'Self Learning Capability',
     ('Yes', 'No')
     )
-  # st.write('You selected:', self_learning_capability)
+  st.write('You selected:', self_learning_capability)
 
   Extra_courses_did = st.selectbox(
     'Extra courses',
   ('Yes', 'No')
   )
-  # st.write('You selected:', Extra_courses_did)
+  st.write('You selected:', Extra_courses_did)
 
   Taken_inputs_from_seniors_or_elders = st.selectbox(
     'Took advice from seniors or elders',
     ('Yes', 'No')
     )
-  # st.write('You selected:', Taken_inputs_from_seniors_or_elders)
+  st.write('You selected:', Taken_inputs_from_seniors_or_elders)
 
   worked_in_teams_ever = st.selectbox(
     'Team Co-ordination Skill',
     ('Yes', 'No')
     )
-  # st.write('You selected:', worked_in_teams_ever)
+  st.write('You selected:', worked_in_teams_ever)
 
   Introvert = st.selectbox(
     'Introvert',
     ('Yes', 'No')
     )
-  # st.write('You selected:', Introvert)
+  st.write('You selected:', Introvert)
 
   reading_and_writing_skills = st.selectbox(
     'Reading and writing skills',

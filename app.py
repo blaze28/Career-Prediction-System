@@ -265,9 +265,9 @@ def inputlist(Name,Contact_Number,Email_address,
 
 def main():
 
-  with st.spinner('Wait for it...'):
-      time.sleep(5)
-  st.success('Done!')
+#   with st.spinner('Wait for it...'):
+#       time.sleep(5)
+#   st.success('Done!')
 
   html1="""
     <div style="text-align:center; text-shadow: 3px 1px 2px purple;">

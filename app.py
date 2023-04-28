@@ -328,91 +328,91 @@ def main():
     'Self Learning Capability',
     ('Yes', 'No')
     )
-  st.write('You selected:', self_learning_capability)
+#   st.write('You selected:', self_learning_capability)
 
   Extra_courses_did = st.selectbox(
     'Extra courses',
   ('Yes', 'No')
   )
-  st.write('You selected:', Extra_courses_did)
+#   st.write('You selected:', Extra_courses_did)
 
   Taken_inputs_from_seniors_or_elders = st.selectbox(
     'Took advice from seniors or elders',
     ('Yes', 'No')
     )
-  st.write('You selected:', Taken_inputs_from_seniors_or_elders)
+#   st.write('You selected:', Taken_inputs_from_seniors_or_elders)
 
   worked_in_teams_ever = st.selectbox(
     'Team Co-ordination Skill',
     ('Yes', 'No')
     )
-  st.write('You selected:', worked_in_teams_ever)
+#   st.write('You selected:', worked_in_teams_ever)
 
   Introvert = st.selectbox(
     'Introvert',
     ('Yes', 'No')
     )
-  st.write('You selected:', Introvert)
+#   st.write('You selected:', Introvert)
 
   reading_and_writing_skills = st.selectbox(
     'Reading and writing skills',
     ('poor','medium','excellent')
     )
-  st.write('You selected: **{}**' .format(reading_and_writing_skills))
+#   st.write('You selected: **{}**' .format(reading_and_writing_skills))
 
   memory_capability_score = st.selectbox(
     'Memory capability score',
     ('poor','medium','excellent')
     )
-  st.write('You selected: **{}**' .format(memory_capability_score))
+#   st.write('You selected: **{}**' .format(memory_capability_score))
 
   smart_or_hard_work = st.selectbox(
     'Smart or Hard Work',
     ('Smart worker', 'Hard Worker')
     )
-  st.write('You selected: **{}**' .format(smart_or_hard_work))
+#   st.write('You selected: **{}**' .format(smart_or_hard_work))
 
   Management_or_Techinical = st.selectbox(
     'Management or Techinical',
     ('Management', 'Technical')
     )
-  st.write('You selected: **{}**' .format(Management_or_Techinical))
+#   st.write('You selected: **{}**' .format(Management_or_Techinical))
 
   Interested_subjects = st.selectbox(
     'Interested Subjects',
     ('programming', 'Management', 'data engineering', 'networks', 'Software Engineering', 'cloud computing', 'parallel computing', 'IOT', 'Computer Architecture', 'hacking')
     )
-  st.write('You selected: **{}**' .format(Interested_subjects))
+#   st.write('You selected: **{}**' .format(Interested_subjects))
 
   Interested_Type_of_Books = st.selectbox(
     'Interested Books Category',
     ('Series', 'Autobiographies', 'Travel', 'Guide', 'Health', 'Journals', 'Anthology', 'Dictionaries', 'Prayer books', 'Art', 'Encyclopedias', 'Religion-Spirituality', 'Action and Adventure', 'Comics', 'Horror', 'Satire', 'Self help', 'History', 'Cookbooks', 'Math', 'Biographies', 'Drama', 'Diaries', 'Science fiction', 'Poetry', 'Romance', 'Science', 'Trilogy', 'Fantasy', 'Childrens', 'Mystery')
     )
-  st.write('You selected: **{}**' .format(Interested_Type_of_Books))
+#   st.write('You selected: **{}**' .format(Interested_Type_of_Books))
 
   certifications = st.selectbox(
     'Interested_Type_of_Books',
     ('information security', 'shell programming', 'r programming', 'distro making', 'machine learning', 'full stack', 'hadoop', 'app development', 'python')
     )
-  st.write('You selected: **{}**' .format(certifications))
+#   st.write('You selected: **{}**' .format(certifications))
 
   workshops = st.selectbox(
     'Workshops Attended',
     ('Testing', 'database security', 'game development', 'data science', 'system designing', 'hacking', 'cloud computing', 'web technologies')
     )
-  st.write('You selected: **{}**' .format(workshops))
+#   st.write('You selected: **{}**' .format(workshops))
   
   Type_of_company_want_to_settle_in = st.selectbox(
     'Type of Company You Want to Settle In ',
     ('BPA', 'Cloud Services', 'product development', 'Testing and Maintainance Services', 'SAaS services', 'Web Services', 'Finance', 'Sales and Marketing', 'Product based', 'Service Based')
     )
-  st.write('You selected: **{}**' .format(Type_of_company_want_to_settle_in))
+#   st.write('You selected: **{}**' .format(Type_of_company_want_to_settle_in))
   
   interested_career_area = st.selectbox(
     'Interested Career Area',
     ('testing', 'system developer', 'Business process analyst', 'security', 'developer', 'cloud computing')
     )
-  st.write('You selected: **{}**' .format(interested_career_area))
+#   st.write('You selected: **{}**' .format(interested_career_area))
   
   result=""
   

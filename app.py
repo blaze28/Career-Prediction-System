@@ -463,16 +463,16 @@ def main():
             Management_or_Techinical,Interested_subjects, Interested_Type_of_Books,
             certifications, workshops, Type_of_company_want_to_settle_in, interested_career_area)
 
-  if choice == "Add Post":
-      st.subheader("Add Your Article")
-      create_table()
-      blog_title = st.text_input('Enter Post Title')
-      blog_author = st.text_input("Enter Author Name",max_chars=50)
-      blog_article = st.text_area("Enter Your Message",height=200)
-      blog_post_date = st.date_input("Post Date")
-      if st.button("Add"):
-        add_data(blog_author,blog_title,blog_article,blog_post_date)
-        st.success("Post::'{}' Saved".format(blog_title))
+#   if choice == "Add Post":
+#       st.subheader("Add Your Article")
+#       create_table()
+#       blog_title = st.text_input('Enter Post Title')
+#       blog_author = st.text_input("Enter Author Name",max_chars=50)
+#       blog_article = st.text_area("Enter Your Message",height=200)
+#       blog_post_date = st.date_input("Post Date")
+#       if st.button("Add"):
+#         add_data(blog_author,blog_title,blog_article,blog_post_date)
+#         st.success("Post::'{}' Saved".format(blog_title))
 
  
 

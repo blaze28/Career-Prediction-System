@@ -291,24 +291,39 @@ def main():
 
   html2="""
     <div style="text-align:center; text-shadow: 3px 1px 2px purple;">
-      <h2>Your Friendly Career Advisor<h2>
+      <h2>Unleash the full potential of your career with our data-driven compass<h2>
     </div>
       """
   st.markdown(html2,unsafe_allow_html=True) #simple html 
  
   st.sidebar.title("Your Information")
 
-  Name = st.sidebar.text_input("Full Name")
+Name = st.sidebar.text_input("Full Name")
+Contact_Number = st.sidebar.text_input("Contact Number")
+Email_address = st.sidebar.text_input("Email address")
 
-  Contact_Number = st.sidebar.text_input("Contact Number")
+if not Name or not Email_address:
+    st.sidebar.warning("Please fill out your name and email address")
+else:
+    if st.sidebar.button("Submit"):
+        # Define the path to store the entered data
+        csv_path = "data.csv"
 
-  Email_address = st.sidebar.text_input("Email address")
+        # Prepare the data as a dictionary
+        data = {
+            "Name": Name,
+            "Contact Number": Contact_Number,
+            "Email Address": Email_address
+        }
 
-  if not Name and Email_address:
-    st.sidebar.warning("Please fill out your name and EmailID")
+        # Write the data to a CSV file
+        with open(csv_path, mode='a', newline='') as file:
+            writer = csv.DictWriter(file, fieldnames=data.keys())
+            if file.tell() == 0:
+                writer.writeheader()  # Write the header if the file is empty
+            writer.writerow(data)
 
-  if Name and Contact_Number and Email_address:
-    st.sidebar.success("Thanks!")
+        st.sidebar.success("Thanks for submitting your information!")
 
   Logical_quotient_rating = st.slider(
     'Rate your Logical quotient Skills', 0,10,1)

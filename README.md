@@ -27,10 +27,3 @@ https://user-images.githubusercontent.com/59966943/153448450-c0e42cca-1659-444c-
 </br>
 
 </br>
-
-[![GitHub followers](https://img.shields.io/github/followers/hrugved06.svg?label=Follow%20@hrugved06&style=social)](https://github.com/hrugved06) 
-[![Twitter Follow](https://img.shields.io/twitter/follow/HrugVed_?style=social)](https://twitter.com/HrugVed_)
-</div>
-</br>
-<hr style="height:2px;#8080ffborder-width:0;border-radius: 5px;color:gray;background-color:#8080ff">
-</br>
